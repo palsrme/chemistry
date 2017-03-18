@@ -1,0 +1,110 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.large-space {
+    height: 60px;
+}
+
+div.col-sm-4 {
+    width: 350px;
+    height: 250px;
+    padding: 0px;
+}
+
+img, .back img, .front, .back {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#box-0, #box-1, #box-2, #box-3, #box-4, #box-5 {
+    border-bottom: 5px solid black;
+}
+
+#box-0, #box-1, #box-3, #box-4, #box-6, #box-7 {
+    border-right: 5px solid black;
+}
+
+.back img {
+    display: none;
+}
+
+.front, .back {
+    background: #FFF;
+    transition: -webkit-transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+}
+
+.front {
+    z-index: 1;
+}
+
+.back {
+    -webkit-transform: rotateY(-180deg);
+}
+
+.info-card {
+    -webkit-perspective: 600px;
+}
+
+#resultModal .modal-body p {
+    color: red;
+}
+
+.alerts {
+    position: fixed;
+    z-index: 100;
+    left: 25%;
+    right: 25%;
+    top: 0;
+}
+
+.alert-msg {
+    display: none;
+    padding: 5px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/*
+    these @media queries allows for us to resize based on the screen size. I've set parameters for most use cases
+    though the alignment won't be perfect on all screen sizes
+*/
+@media (max-width: 1199px){
+    div.col-sm-4 {
+        width: 250px;
+        height: 178px;
+    }
+}
+
+@media (max-width: 850px) {
+    div.col-sm-4 {
+        width: 200px;
+        height: 142px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    div.col-sm-4 {
+        width: 150px;
+        height: 106px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 549px) {
+    div.col-xs-4 {
+        width: 100px;
+        height: 71px;
+        margin: 0px;
+    }
+}
