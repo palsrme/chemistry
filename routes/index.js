@@ -16,85 +16,77 @@ let imgs = [
         {
             question: '<h2>Chymosin, naturally found in rennet, is an enzyme used in cheese making. What is the traditional source of rennet?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">The stomach of newborn calves</button>',
-                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">Bee Pollen</button>',
-                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">bacon</button>',
-                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">Pizza</button>'
+                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">correct</button>',
+                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">incorrect</button>',
             ]
         },
         {
-            question: '<h2>What is the role of enzymes in fermentation?</h2><input id="user-answer" type="text"/>',
+            question: '<h2>What is the role of enzymes in fermentation?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="1" data-dismiss="modal">Make guess</button>'
+                '<button type="button" class="btn btn-default submit-response" question="1" data-dismiss="modal">correct</button>',
+                '<button type="button" class="btn btn-default submit-response" question="1" data-dismiss="modal">incorrect</button>',
             ]
         },
         {
-            question: '<h2>How do irreversible inhibitors prevent substrates from binding with the active site?</h2><input id="user-answer" type="text"/>',
+            question: '<h2>How do irreversible inhibitors prevent substrates from binding with the active site?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="2" data-dismiss="modal">Make guess</button>'
+                '<button type="button" class="btn btn-default submit-response" question="2" data-dismiss="modal">correct</button>',
+                '<button type="button" class="btn btn-default submit-response" question="2" data-dismiss="modal">incorrect</button>',
             ]
         },
         {
-            question: '<h2>Draw the structure of niacin?</h2><input id="user-answer" type="number"/>',
+            question: '<h2>Draw the structure of niacin?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="3" data-dismiss="modal">Make guess</button>'
+                '<button type="button" class="btn btn-default submit-response" question="3" data-dismiss="modal">correct</button>',
+                '<button type="button" class="btn btn-default submit-response" question="3" data-dismiss="modal">incorrect</button>',
             ]
         },
         {
             question: '<h2>How does penicillin, an antibiotic, stop bacterial growth?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="4" data-dismiss="modal">Thai Curry</button>',
-                '<button type="button" class="btn btn-default submit-response" question="4" data-dismiss="modal">Mango Habanero</button>',
-                '<button type="button" class="btn btn-default submit-response" question="4" data-dismiss="modal">Honey BBQ</button>',
-                '<button type="button" class="btn btn-default submit-response" question="4" data-dismiss="modal">Asian Zing</button>'
+                '<button type="button" class="btn btn-default submit-response" question="4" data-dismiss="modal">correct</button>',
+                '<button type="button" class="btn btn-default submit-response" question="4" data-dismiss="modal">incorrect</button>',
             ]
         },
         {
-            question: '<h2>What is the official method used to determine the vitamin C content of food?</h2> Owen Wilson or Froggy Fresh?',
+            question: '<h2>What is the official method used to determine the vitamin C content of food?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="5" data-dismiss="modal">Owen Wilson</button>',
-                '<button type="button" class="btn btn-default submit-response" question="5" data-dismiss="modal">Froggy Fresh</button>'
+                '<button type="button" class="btn btn-default submit-response" question="5" data-dismiss="modal">correct</button>',
+                '<button type="button" class="btn btn-default submit-response" question="5" data-dismiss="modal">incorrect</button>',
             ]
         },
         {
-            question: '<h2>What is an enzyme inhibitor retrieved from almonds?</h2>Just ____ __!<br><input id="user-answer" type="text"/>',
+            question: '<h2>What is an enzyme inhibitor retrieved from almonds?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="6" data-dismiss="modal">Make guess</button>'
+                '<button type="button" class="btn btn-default submit-response" question="6" data-dismiss="modal">correct</button>',
+                '<button type="button" class="btn btn-default submit-response" question="6" data-dismiss="modal">incorrect</button>',
             ]
         },
         {
-            question: '<h2>Which food is a good source of vitamin A?</h2><br><br>Billy ____ __ ___ __ _____' +
-                        '<br><input id="user-answer" type="text"/>',
+            question: '<h2>Which food is a good source of vitamin A?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="7" data-dismiss="modal">Make Guess</button>'
+                '<button type="button" class="btn btn-default submit-response" question="7" data-dismiss="modal">correct</button>',
+                '<button type="button" class="btn btn-default submit-response" question="7" data-dismiss="modal">incorrect</button>',
             ]
         },
         {
-            question: '<h2>Eating many blackberries can give you what?</h2>I know. It’s all wrong. By rights we shouldn\'t even be here. ' +
-                    'But we are. It\'s like in the great stories... The ones that really mattered. Full of darkness and danger, they were. ' +
-                    'And sometimes you didn\'t want to know the end. Because how could the end be happy? ' +
-                    'How could the world go back to the way it was when so much bad had happened? ' +
-                    'But in the end, it\'s only a passing thing, this shadow. Even darkness must pass. A new day will come. ' +
-                    'And when the sun shines it will shine out the clearer. Those were the stories that stayed with you. ' +
-                    'That meant something, even if you were too small to understand why. But I think... I do understand. I know now. ' +
-                    'Folk in those stories had lots of chances of turning back, only they didn\'t. They kept going. ' +
-                    'Because they were holding on to something. That there\'s some good in this world... and it’s worth fighting for.' +
-                    '<br><input id="user-answer" type="text"/>',
+            question: '<h2>Eating many blackberries can give you what?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="8" data-dismiss="modal">Make guess</button>'
+                '<button type="button" class="btn btn-default submit-response" question="8" data-dismiss="modal">correct</button>',
+                '<button type="button" class="btn btn-default submit-response" question="8" data-dismiss="modal">incorrect</button>',
             ]
         }
     ],
     answers = [
-        'Pickles',
-        'Professor Conrad',
-        'Who Lives on Drury Lane?',
-        '1',
-        'Asian Zing',
-        'Froggy Fresh',
-        'beat it',
-        'jean is not my lover',
-        'Sam'
+        'correct',
+        'correct',
+        'correct',
+        'correct',
+        'correct',
+        'correct',
+        'correct',
+        'correct',
+        'correct'
     ]
 
 /* GET home page. */
@@ -102,8 +94,8 @@ router.get('/', function(req, res, next) {
     /**
         to unrandomize the questions, comment out the line 'questions = shuffle(questions);'
         if the right answer is not working, this may be causing issues
-    */
     questions = shuffle(questions);
+    */
 
     res.render('index', {
         title: 'Tic Tac Enzyme Toe!',

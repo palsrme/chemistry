@@ -40,14 +40,15 @@ function getQuestion($cardSelected) {
                     if the button we clicked contains the attribute 'question' with values 0, 4, or 5,
                     then the user's button has some text in it that we need to grab.
                     otherwise, the user had to manually input some data in a textbox
-                 */
                 if (parseInt($(this).attr('question')) === 0 || parseInt($(this).attr('question')) === 4 ||
                     parseInt($(this).attr('question')) === 5) {
                     var userAnswer = $(this).html();
                 } else {
                     var userAnswer = $('#user-answer').val();
                 }
+                 */
 
+                    var userAnswer = $(this).html();
                 //setting up the request body for the '/answer' route.
                 var data = {
                     qNum: $(this).attr('question'),
