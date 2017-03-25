@@ -14,34 +14,34 @@ let imgs = [
     ],
     questions = [
         {
-            question: '<h2>What is the Secret Sauce Ed uses in Good Burger?</h2>',
+            question: '<h2>Chymosin, naturally found in rennet, is an enzyme used in cheese making. What is the traditional source of rennet?</h2>',
             btns: [
-                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">Pickles</button>',
-                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">Cheezits</button>',
+                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">The stomach of newborn calves</button>',
+                '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">Bee Pollen</button>',
                 '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">bacon</button>',
                 '<button type="button" class="btn btn-default submit-response" question="0" data-dismiss="modal">Pizza</button>'
             ]
         },
         {
-            question: '<h2>Who is the Professor of this class?</h2><input id="user-answer" type="text"/>',
+            question: '<h2>What is the role of enzymes in fermentation?</h2><input id="user-answer" type="text"/>',
             btns: [
                 '<button type="button" class="btn btn-default submit-response" question="1" data-dismiss="modal">Make guess</button>'
             ]
         },
         {
-            question: '<h2>Do you know the muffin man?</h2><input id="user-answer" type="text"/>',
+            question: '<h2>How do irreversible inhibitors prevent substrates from binding with the active site?</h2><input id="user-answer" type="text"/>',
             btns: [
                 '<button type="button" class="btn btn-default submit-response" question="2" data-dismiss="modal">Make guess</button>'
             ]
         },
         {
-            question: '<h2>What is ((100 / 5) + 2) % 7?</h2><input id="user-answer" type="number"/>',
+            question: '<h2>Draw the structure of niacin?</h2><input id="user-answer" type="number"/>',
             btns: [
                 '<button type="button" class="btn btn-default submit-response" question="3" data-dismiss="modal">Make guess</button>'
             ]
         },
         {
-            question: '<h2>What is the best flavor of wings at BWW?</h2>',
+            question: '<h2>How does penicillin, an antibiotic, stop bacterial growth?</h2>',
             btns: [
                 '<button type="button" class="btn btn-default submit-response" question="4" data-dismiss="modal">Thai Curry</button>',
                 '<button type="button" class="btn btn-default submit-response" question="4" data-dismiss="modal">Mango Habanero</button>',
@@ -50,27 +50,27 @@ let imgs = [
             ]
         },
         {
-            question: '<h2>Who is the Baddest of them all?</h2> Owen Wilson or Froggy Fresh?',
+            question: '<h2>What is the official method used to determine the vitamin C content of food?</h2> Owen Wilson or Froggy Fresh?',
             btns: [
                 '<button type="button" class="btn btn-default submit-response" question="5" data-dismiss="modal">Owen Wilson</button>',
                 '<button type="button" class="btn btn-default submit-response" question="5" data-dismiss="modal">Froggy Fresh</button>'
             ]
         },
         {
-            question: '<h2>Complete the lyrics</h2>Just ____ __!<br><input id="user-answer" type="text"/>',
+            question: '<h2>What is an enzyme inhibitor retrieved from almonds?</h2>Just ____ __!<br><input id="user-answer" type="text"/>',
             btns: [
                 '<button type="button" class="btn btn-default submit-response" question="6" data-dismiss="modal">Make guess</button>'
             ]
         },
         {
-            question: '<h2>Complete the Following lines</h2><br><br>Billy ____ __ ___ __ _____' +
+            question: '<h2>Which food is a good source of vitamin A?</h2><br><br>Billy ____ __ ___ __ _____' +
                         '<br><input id="user-answer" type="text"/>',
             btns: [
                 '<button type="button" class="btn btn-default submit-response" question="7" data-dismiss="modal">Make Guess</button>'
             ]
         },
         {
-            question: '<h2>Who said the following?</h2>I know. It’s all wrong. By rights we shouldn\'t even be here. ' +
+            question: '<h2>Eating many blackberries can give you what?</h2>I know. It’s all wrong. By rights we shouldn\'t even be here. ' +
                     'But we are. It\'s like in the great stories... The ones that really mattered. Full of darkness and danger, they were. ' +
                     'And sometimes you didn\'t want to know the end. Because how could the end be happy? ' +
                     'How could the world go back to the way it was when so much bad had happened? ' +
