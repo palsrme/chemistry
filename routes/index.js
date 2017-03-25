@@ -6,7 +6,7 @@ let imgs = [
         'images/ScottG.jpg',
         'images/SaraJ.png',
         'images/sa-rah-rah.jpg',
-        'images/SaraC.png',
+        'images/VictoriaH.png',
         'images/ShebbyP.jpg',
         'images/JuliaH.png',
         'images/TylerL.png',
@@ -106,7 +106,7 @@ router.get('/', function(req, res, next) {
     questions = shuffle(questions);
 
     res.render('index', {
-        title: 'Tic Tac Jeopardy Toe!',
+        title: 'Tic Tac Enzyme Toe!',
         imgs: imgs
     });
 });
